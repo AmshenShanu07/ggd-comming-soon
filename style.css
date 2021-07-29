@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@500&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: Podkova;
+  color: white;
+}
+
+main {
+  background-image: url("./images/bg_cover.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main_container {
+  height: 100%;
+  width: 100%;
+  background: rgba(45, 5, 5, 0.76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_container {
+  height: 80%;
+  width: 80%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.content_container h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  font-family: Redressed;
+  margin: 16px 0 0;
+}
+
+.content_container h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.content_container h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0 0 0;
+}
+
+.logo_group{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.logo_container {
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_container svg{
+    fill:white;
+    height: 42px;
+    width: 42px;
+}
+.facebook_icon svg{
+    fill:white;
+    height: 22px;
+    width:22px;
+}
+
+@media screen  and (max-width:348px){
+    .content_container h1 {
+        font-size: 32px;
+      }
+      .content_container h2 {
+        font-size: 24px;
+        
+      }
+      .content_container h3 {
+        font-size: 18px;
+        
+      }
+}
